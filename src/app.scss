@@ -1,0 +1,35 @@
+@import './styles/varibles';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+
+  background-image: url('./assets/img/background.png');
+  background-position-x: center;
+  background-position-y: top;
+}
+
+/* Контейнер для огна */
+.container {
+  margin: 0 auto;
+  max-width: 62%;
+}
+
+/* Лейаут */
+.main {
+  flex: 1;
+}
+
+.footer {
+  height: 50px;
+}
+
+/* Медиа-запросы */
+
+@media (max-width: 1920px) {
+  .container {
+    max-width: 1170px;
+  }
+}

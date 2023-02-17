@@ -1,0 +1,99 @@
+@import '../../styles/varibles';
+
+.home {
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__title-main {
+    margin-top: 50px;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient($text-background-gradient);
+
+    font-family: Museo700;
+    font-size: 58px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: transparent;
+  }
+
+  &__title-second {
+    margin-bottom: 71px;
+
+    font-family: Museo300;
+    font-size: 25px;
+
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient($text-background-gradient);
+
+    text-transform: none;
+  }
+
+  &__img-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+
+  &__img-box-image {
+    position: relative;
+    top: 26px;
+    left: 2px;
+  }
+}
+
+/* Медиа-запросы */
+
+@media (max-width: 1200px) {
+  .home {
+    &__inner {
+      padding: 0 50px;
+    }
+  }
+  
+  .line {
+    display: none;
+  }
+
+  .box-for-line {
+    grid-template-columns: auto;
+    justify-content: start;
+  }
+}
+
+@media (max-width: 950px) {
+  .home {
+    &__inner {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    .box-for-line {
+      margin-bottom: 30px;
+
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .home {
+    &__title-main {
+      font-size: 40px;
+    }
+    &__title-second {
+      margin-bottom: 30px;
+
+      font-size: 16px;
+    }
+  }
+}

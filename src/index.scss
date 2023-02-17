@@ -1,0 +1,29 @@
+@import './styles/reset';
+@import './styles/varibles';
+
+/* Шрифты */
+
+@font-face {
+  font-family: Museo100;
+  src: url('./assets//fonts/100/MuseoSansCyrl100.woff') format('woff');
+}
+
+@font-face {
+  font-family: Museo300;
+  src: url('./assets/fonts/300/MuseoSansCyrl300.woff') format('woff');
+}
+
+@font-face {
+  font-family: Museo700;
+  src: url('./assets/fonts/700/MuseoSansCyrl700.woff') format('woff');
+}
+
+/* Body */
+
+body {
+  background-color: #0a0e0f;
+
+  color: $text-color;
+  font-family: Museo300;
+}
+
