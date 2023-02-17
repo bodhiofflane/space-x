@@ -54,15 +54,15 @@
     &__inner {
       padding: 0 50px;
     }
-  }
-  
-  .line {
-    display: none;
-  }
 
-  .box-for-line {
-    grid-template-columns: auto;
-    justify-content: start;
+    &__img-box-image {
+      display: none;
+    }
+
+    &__img-box {
+      grid-template-columns: auto;
+      justify-content: start;
+    }
   }
 }
 
@@ -77,7 +77,7 @@
       text-align: center;
     }
 
-    .box-for-line {
+    &__img-box {
       margin-bottom: 30px;
 
       justify-content: center;

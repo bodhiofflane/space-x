@@ -1,8 +1,8 @@
 {
-  "name": "elan-musk-test",
-  "homepage": "https://bodhiofflane.github.io/elon-musk",
-  "version": "0.1.0",
+  "name": "space-x",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://bodhiofflane.github.io/space-x",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
