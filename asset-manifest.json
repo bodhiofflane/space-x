@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/search-manga/space-x/static/css/main.13d6961c.css",
+    "main.js": "/search-manga/space-x/static/js/main.a4580019.js",
+    "static/media/background.png": "/search-manga/space-x/static/media/background.0f70fda795d1aaef9e69.png",
+    "static/media/MuseoSansCyrl700.woff": "/search-manga/space-x/static/media/MuseoSansCyrl700.d44c59f0dce3522acf45.woff",
+    "static/media/MuseoSansCyrl300.woff": "/search-manga/space-x/static/media/MuseoSansCyrl300.009af5051e58a1cf5c8c.woff",
+    "static/media/MuseoSansCyrl100.woff": "/search-manga/space-x/static/media/MuseoSansCyrl100.af0499741b08a1533134.woff",
+    "index.html": "/search-manga/space-x/index.html",
+    "main.13d6961c.css.map": "/search-manga/space-x/static/css/main.13d6961c.css.map",
+    "main.a4580019.js.map": "/search-manga/space-x/static/js/main.a4580019.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13d6961c.css",
+    "static/js/main.a4580019.js"
+  ]
+}
